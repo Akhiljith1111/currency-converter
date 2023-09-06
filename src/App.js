@@ -72,7 +72,7 @@ function App() {
 			</div>
 			<div className="result">
 				<button onClick={() => { convert() }}>Convert</button>
-				<h2>Converted Amount: {input + " " + from + " = " + output.toFixed(2) + " " + to}</h2>
+				<h2>Converted Amount: {input + " " + from + " = " + output.toFixed(3) + " " + to}</h2>
 
 			</div>
 		</div>
